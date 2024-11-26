@@ -1,0 +1,178 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #6879d1;
+}
+
+.menu-2{
+    
+    list-style: none;
+    display: flex;
+    
+}
+
+.menu-2 li{
+    margin-top: 35px;
+    margin-right: 20px;
+}
+
+.menu-2 li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding: 5px;
+    transition: all 0.2s ease;
+}
+
+.menu-2 li a:hover{
+   transform: scale(1);
+   padding: 5px;
+   color: #8ec3ee;
+    
+}
+
+.search-bar-2{
+     margin-left: 1580px;
+     margin-top: -32px;
+     display: flex;
+     align-items: center;
+ }
+ 
+ .search-bar-2 input{
+     padding: 5px;
+     font-size: 14px;
+     border: none;
+     border-radius: 4px;
+     margin-right: 10px;
+     width: 200px;
+ }
+ 
+ .search-bar-2 button{
+     padding: 8px 15px;
+     font-size: 14px;
+     background-color: #416d99;
+     color: white;
+     border: none;
+     border-radius: 4px;
+     cursor: pointer;
+ }
+.search-bar-2 button:hover{
+    background-color: #7da6ce;
+}
+
+
+.container-321{
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    background-color: #4f7cbf;
+    color: #fff;
+    padding: 40px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin-left:-210px;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+header p {
+    margin-left:-210px;
+    font-size: 20px;
+    color: #ddd;
+}
+
+.about-us {
+    padding: 40px 0;
+    background-color: #fff;
+    text-align: center;
+}
+
+.about-us h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.about-us p {
+    font-size: 1.2rem;
+    color: #555;
+    line-height: 1.6;
+}
+
+.hotelmain {
+    background-color: #fff;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.hotelmain h2 {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+}
+
+.hotel-img-1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 8px;
+}
+
+.hotel-img-1 img {
+    width: 200px;
+    height: 200px;
+    margin-right: 20px;
+    border-radius: 4%;
+}
+
+.hotel-info {
+    max-width: 600px;
+}
+
+.hotel-info h3 {
+    font-size: 1.5rem;
+    margin-top: 10px;
+}
+
+.hotel-info p {
+    font-size: 1rem;
+    color: #666;
+}
+
+footer {
+    background-color: #4f7cbf;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer p {
+    font-size: 15px;
+}
+
+@media screen and (max-width: 768px) {
+    .hotel-img-1 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .hotel-img-1 img {
+        margin-bottom: 20px;
+    }
+
+    .hotel-info {
+        text-align: center;
+    }
+}

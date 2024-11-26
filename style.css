@@ -1,0 +1,156 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+ 
+ header{
+     background-color: #4f7cbf;
+     padding: 10px 20px;
+     height: 100px;
+ }
+
+ .satauri{
+    letter-spacing: 10px;
+    color: white;
+    margin-left: 780px;
+    font-size: 50px;
+
+ }
+ 
+ .navbar{
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+ }
+ 
+ .menu{
+     list-style: none;
+     display: flex;
+     
+ }
+ 
+ .menu li{
+     margin-top: -33px;
+     margin-right: 20px;
+ }
+ 
+ .menu li a{
+     text-decoration: none;
+     color: white;
+     font-size: 20px;
+     padding: 5px;
+     transition: all 0.2s ease;
+ }
+ 
+ .menu li a:hover{
+    transform: scale(1);
+    padding: 5px;
+    color: #8ec3ee;
+     
+ }
+ 
+ .search-bar{
+    margin-left: 1600px;
+     margin-top: -40px;
+     display: flex;
+     align-items: center;
+ }
+ 
+ .search-bar input{
+     padding: 5px;
+     font-size: 14px;
+     border: none;
+     border-radius: 4px;
+     margin-right: 10px;
+     width: 200px;
+ }
+ 
+ .search-bar button{
+     padding: 8px 15px;
+     font-size: 14px;
+     background-color: #416d99;
+     color: white;
+     border: none;
+     border-radius: 4px;
+     cursor: pointer;
+ }
+ 
+ .search-bar button:hover{
+    background-color: #000000;
+ }
+
+ main{
+    background-image: url(img/pexels-andreimike-1271619.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 0px;
+    height: 750px;
+    opacity: 0.75;
+    
+ }
+
+ h3{
+    color: rgb(255, 255, 255);
+    font-weight: 20;
+    padding-left: 100px;
+    letter-spacing: 5px;
+    padding-top: 300px;
+    font-size: 85px;
+    
+ }
+
+
+ footer{
+     background-color: #4f7cbf;
+     padding: 10px 20px;
+     height: 95px;
+ }
+
+
+ h4{
+    font-size: 20px;
+    color: white;
+    font-weight: 20;
+    padding-top: 10px;
+ }
+
+ h5{
+    font-size: 20px;
+    color: white;
+    font-weight: 20;
+    padding-top: 10px;
+ }
+
+ button{
+    background-color: #4f7cbf;
+    border-radius: 5%;
+    color: white;
+    height: 50px;
+    font-size: 15px;
+ }
+
+ button a{
+    list-style: none;
+    text-decoration: none;
+    color: white;
+ }
+
+ @media (max-width: 768px) {
+
+    main {
+        background-position: top center;
+        width: 768px;
+    }
+
+    footer {
+        height: auto;
+    }
+
+    h4, h5 {
+        font-size: 16px;
+    }
+}

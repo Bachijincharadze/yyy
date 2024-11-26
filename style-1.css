@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+
+
+header{
+    background-color: #4f7cbf;
+    padding: 10px 20px;
+    height: 100px;
+}
+
+.navbar-1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu-1{
+    
+    list-style: none;
+    display: flex;
+    
+}
+
+.menu-1 li{
+    margin-top: 25px;
+    margin-right: 20px;
+}
+
+.menu-1 li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding: 5px;
+    transition: all 0.2s ease;
+}
+
+.menu-1 li a:hover{
+   transform: scale(1);
+   padding: 5px;
+   color: #8ec3ee;
+    
+}
+
+.search-bar-1{
+     margin-left: 1580px;
+     margin-top: -32px;
+     display: flex;
+     align-items: center;
+ }
+ 
+ .search-bar-1 input{
+     padding: 5px;
+     font-size: 14px;
+     border: none;
+     border-radius: 4px;
+     margin-right: 10px;
+     width: 200px;
+ }
+ 
+ .search-bar-1 button{
+     padding: 8px 15px;
+     font-size: 14px;
+     background-color: #416d99;
+     color: white;
+     border: none;
+     border-radius: 4px;
+     cursor: pointer;
+ }
+.search-bar-1 button:hover{
+    background-color: #7da6ce;
+}
+
+
+
+.body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.card-container {
+    display: flex;
+    gap: 20px;
+}
+
+.card {
+    height: 840px;
+    width: 700px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    text-align: center;
+}
+
+
+.card img {
+    width: 100%;
+    height: 650px;
+    object-fit: cover;
+    border-bottom: 2px solid #ddd;
+}
+
+.card-content {
+    padding: 15px;
+}
+
+.card-content h3 {
+    font-size: 20px;
+    color: #333;
+    margin: 10px 0;
+}
+
+.card-content p {
+    font-size: 25px;
+    color: #555;
+    line-height: 1.5;
+}
+
+.card-content .hotelm {
+    font-weight: bold;
+    color: white;
+    margin-top: 3px;
+}
+
+
+
+button{
+    cursor: pointer;
+    background-color: #4f7cbf;
+    align-items: center;
+    width: 100px;
+    height: 50px;
+    transition: all 0.2s;
+}
+
+button:hover{
+    transform: scale(1);
+    background-color: #7da6ce;
+
+}
+
+.card-content .description {
+    margin-top: 10px;
+}
